@@ -1,0 +1,43 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  	<modelVersion>4.0.0</modelVersion>
+  	<groupId>com.rade.jeff</groupId>
+  	<artifactId>JackcessImport</artifactId>
+  	<packaging>jar</packaging>
+  	<version>0.1-SNAPSHOT</version>
+  	<name>JackcessImport</name>
+  	<url>http://maven.apache.org</url>
+  
+  	<scm>
+		<developerConnection>scm:git:http://github.com/jer3321/JackcessImport.git</developerConnection>
+		<tag>JackcessImport-0.1</tag>
+	</scm>
+	
+	<build>
+		<plugins>
+	      <plugin>
+	        <groupId>org.apache.maven.plugins</groupId>
+	        <artifactId>maven-compiler-plugin</artifactId>
+	        <version>3.0</version>
+	        <configuration>
+	          <source>1.7</source>
+	          <target>1.7</target>
+	        </configuration>
+	      </plugin>
+	    </plugins>
+	</build>
+  
+  	<dependencies>
+  		<dependency>
+			<groupId>com.healthmarketscience.jackcess</groupId>
+			<artifactId>jackcess</artifactId>
+			<version>1.2.8</version>
+		</dependency>    
+    	<dependency>
+	      	<groupId>junit</groupId>
+	      	<artifactId>junit</artifactId>
+	      	<version>3.8.1</version>
+	      	<scope>test</scope>
+		</dependency>
+	</dependencies>
+</project>

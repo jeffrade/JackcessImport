@@ -17,7 +17,7 @@ public class ImportLauncher {
 
 	public static void main(String[] args){
 		String errorMessage = null;
-		File mdbFile = new File("C://file.mdb");;
+		File mdbFile = new File("C://file.mdb");
 		
 		try{
 			errorMessage = ImportUtility.startImport(mdbFile);
